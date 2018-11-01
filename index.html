@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign Up Form</title>
+  </head>
+  <body>
+
+    <main> <!-- main content beginning-->
+
+      <h1>Welcome to Signer Upper</h1>
+      <p>Please Complete the form below to sign up:</p>
+
+      <p><mark>Fields marked with * are required</mark></p>
+
+      <form class="signup" action="index.html" method="get"> <!-- form begining -->
+
+        <label for="email">Email*</label> <!-- email input here  (example of one style of labeling inputs)-->
+        <input type="email" name="email" value="" placeholder="email@email.com" autofocus required> <!-- this autofocus makes the focus jump to this input field when the page loads --> <!-- I made your email required for signup.  -->
+
+        <br>
+        <br>
+
+        <label> <!-- password input here  <!-- email input here  (example of another style of labeling inputs)-->
+          Password*
+          <input type="password" name="pass" value="" placeholder="password" required>
+        </label> <!-- I made your password required for signup.  -->
+
+        <br>
+        <br>
+
+        <label for="Github">
+          GitHub
+          <input type="link" name="linky" value="" placeholder="https://github.com/USERNAME" size="50"> <!-- resized this field for a larger input -->
+        </label>
+
+        <br>
+        <br>
+
+        <fieldset>
+          <legend>Choose 1:</legend>
+
+          <label for="Enterprise">Enterprise</label>
+          <input type="radio" name="3opt" value="Enterprise">
+
+          <label for="Pro">Pro</label>
+          <input type="radio" name="3opt" value="Pro">
+
+          <label for="Free">Free</label>
+          <input type="radio" name="3opt" value="Free">
+
+        </fieldset>
+
+        <br>
+
+        <label for="remember">Remember Me</label>
+        <input id="remember" type="checkbox" name="" value="">
+
+      </form> <!-- form ending -->
+
+    </main> <!-- tmain content ending -->
+
+    <footer><small>Copyright (c) 2018 Copyright Holder All Rights Reserved.</small></footer>
+
+  </body>
+</html>
